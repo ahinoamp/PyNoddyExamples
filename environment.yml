@@ -19,6 +19,7 @@ dependencies:
   - k3d=2.7.1
   - ipywidgets
   - pip:
+    - ezdxf==0.10.2
     - itk-core==5.0.1
     - itk-filtering==5.0.1
     - itk-numerics==5.0.1

@@ -25,9 +25,9 @@ def importModulesAndSetup():
 
     copyfile(source, target)
 
-    target = pynoddy.__file__[:-11]+'events.py'
+    target = pynoddy.__file__[:-11]+'history.py'
 
-    source = 'events.py'
+    source = 'history.py'
 
     copyfile(source, target)
 
